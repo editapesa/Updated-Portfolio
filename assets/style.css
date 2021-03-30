@@ -1,0 +1,202 @@
+:root {
+    --lite-green: #e6ffff;
+    --sea-green: #00cccc;
+    --cream: #ffe4cf;
+    --border-style: none solid none none;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--lite-green);
+    }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+
+header {
+    padding: 30px 0 100px 0;
+    background-color:var(--sea-green);
+}
+
+header h1 {
+    font-size: 48px;
+    background-color: var(--cream);
+    padding: 10px;
+    float: left;
+}
+ 
+header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.sub-header {
+    height: 200px;
+    width: 100%;
+    background-image: url("../assets/images/beach\ pic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-header h2 {
+    font-size: 24px; 
+    background-color: var(--cream);
+    margin: 80px 50px;
+    padding: 5px;
+    float: right;
+}
+
+#my-profile-pic {
+    width: 60%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.my-info {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 20px 10px;
+}
+
+.about-me {
+    display: flex; 
+    margin: 20px 0 20px 80px;
+}
+
+.about-me h1 {
+    border-style: var(--border-style);
+    padding: 0 20px 20px 10px;
+    font-size: 36px;
+}
+
+.about-me p {
+    margin: 10px 0 10px 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 20px 5px;
+    padding: 50px;
+    height: 300px;
+}
+
+.work h1 {
+    border-style: var(--border-style);
+    padding: 10px 20px 20px 10px;
+    font-size: 36px;
+}
+
+.projects {
+    margin: 10px 10px 10px 30px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.projects:hover {
+    opacity: .5;
+}
+
+#project-one {
+    width: 700px;
+    height: 300px;
+    background-image: url("../assets/images/nyc.jpg");
+    background-size: cover;    
+}
+
+#project-one p {
+    font-size: 24px; 
+    background-color: var(--cream);
+    padding: 5px;
+    float: right;
+}
+
+#project-two {
+    height: 150px;
+    width: 300px;
+    background-image: url("../assets/images/cro.jpg");
+    background-size: cover;
+}
+
+#project-two p {
+    font-size: 15px; 
+    background-color: var(--cream);
+    padding: 5px;
+    float: right;
+}
+
+#project-three {
+    height: 150px;
+    width: 300px;
+    background-image: url("../assets/images/paris.jpg");
+    background-size: cover;
+}
+
+#project-three p {
+    font-size: 15px; 
+    background-color: var(--cream);
+    padding: 5px;
+    float: right;
+}
+
+.contact-me {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin-top: 500px;
+    height: 150px;
+    background-color: var(--sea-green);
+    background-size: cover;
+}
+
+.contact-me h1 {
+    border-style: var(--border-style);
+    margin: 10px 0 0 0;
+    padding: 10px 20px 20px 10px;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.contact-me ul li {
+    margin: 10px 0 0 25px;
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    justify-content: center;
+}
+
+ 
+@media screen and (max-width: 992px) {
+    body {
+      flex-direction: column;
+    }
+}
+    
+  @media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+} 
+
+
