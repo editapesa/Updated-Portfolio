@@ -123,8 +123,15 @@ header nav ul li {
     background-size: cover;    
 }
 
-#project-one p {
-    font-size: 24px; 
+#project-one ul {
+    font-size: 12px; 
+    background-color: var(--cream);
+    padding: 5px;
+    float: right;
+}
+
+#project-name {
+    font-size: 20px; 
     background-color: var(--cream);
     padding: 5px;
     float: right;
@@ -137,8 +144,8 @@ header nav ul li {
     background-size: cover;
 }
 
-#project-two p {
-    font-size: 15px; 
+#project-two ul {
+    font-size: 12px; 
     background-color: var(--cream);
     padding: 5px;
     float: right;
@@ -151,8 +158,8 @@ header nav ul li {
     background-size: cover;
 }
 
-#project-three p {
-    font-size: 15px; 
+#project-three ul {
+    font-size: 12px; 
     background-color: var(--cream);
     padding: 5px;
     float: right;
