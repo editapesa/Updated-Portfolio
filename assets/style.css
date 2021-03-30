@@ -119,7 +119,7 @@ header nav ul li {
 #project-one {
     width: 700px;
     height: 300px;
-    background-image: url("../assets/images/nyc.jpg");
+    background-image: url(images/project1-demo-pic.jpg);
     background-size: cover;    
 }
 
@@ -133,7 +133,7 @@ header nav ul li {
 #project-two {
     height: 150px;
     width: 300px;
-    background-image: url("../assets/images/cro.jpg");
+    background-image: url(images/horiseon-demo-pic.png);
     background-size: cover;
 }
 
@@ -147,7 +147,7 @@ header nav ul li {
 #project-three {
     height: 150px;
     width: 300px;
-    background-image: url("../assets/images/paris.jpg");
+    background-image: url(images/project1-demo-pic.jpg);
     background-size: cover;
 }
 
