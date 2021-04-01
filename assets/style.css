@@ -31,6 +31,7 @@ main {
 
 header h1 {
     font-size: 60px;
+    display: inline-block;
     /* background-color: var(--cream); */
     /* padding: 10px;
     float: left; */
@@ -57,7 +58,8 @@ a {
 }
 
 #img {
-    float: left;
+    /* float: left; */
+    display: inline-block;
 }
 
 .sub-header {
