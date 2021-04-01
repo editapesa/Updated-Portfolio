@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--lite-green);
     }
 
@@ -22,16 +22,18 @@ main {
     margin-top: 2%;
   }
 
-header {
-    padding: 30px 0 100px 0;
-    background-color:var(--sea-green);
+.custom-jumbotron {
+    background-image: url("../assets/images/beach\ pic.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-color:var(--sea-green); */
 }
 
 header h1 {
-    font-size: 48px;
-    background-color: var(--cream);
-    padding: 10px;
-    float: left;
+    font-size: 60px;
+    /* background-color: var(--cream); */
+    /* padding: 10px;
+    float: left; */
 }
  
 header nav {
@@ -48,12 +50,20 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+} 
+
+a {
+    color:black;
+}
+
+#img {
+    float: left;
 }
 
 .sub-header {
     height: 200px;
     width: 100%;
-    background-image: url("../assets/images/beach\ pic.jpg");
+    
     background-size: cover;
     background-position: center;
 }
