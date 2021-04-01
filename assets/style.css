@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 :root {
     --lite-green: #e6ffff;
     --sea-green: #00cccc;
@@ -194,13 +200,13 @@ header nav ul li {
 }
 
  
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 800px) {
     body {
-      flex-direction: column;
+      width: 100%;
     }
 }
     
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     body {
         flex-direction: column;
     }
