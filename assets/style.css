@@ -26,30 +26,21 @@ main {
     background-image: url("../assets/images/beach\ pic.jpg");
     background-size: cover;
     background-position: center;
-    /* background-color:var(--sea-green); */
 }
 
 header h1 {
     font-size: 60px;
     display: inline-block;
-    /* background-color: var(--cream); */
-    /* padding: 10px;
-    float: left; */
 }
- 
-header nav {
-    padding-top: 20px;
-    margin-right: 20px;
+
+.navbar-expand {
     float: right;
-    font-size: 20px;
+    font-size: 20px;   
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
+.navbar-nav li {
     display: inline-block;
+    list-style-type: none;
     margin-left: 25px;
 } 
 
@@ -57,31 +48,11 @@ a {
     color:black;
 }
 
-#img {
-    /* float: left; */
-    display: inline-block;
-}
-
-.sub-header {
-    height: 200px;
-    width: 100%;
-    
-    background-size: cover;
-    background-position: center;
-}
-
-.sub-header h2 {
-    font-size: 24px; 
-    background-color: var(--cream);
-    margin: 80px 50px;
-    padding: 5px;
-    float: right;
-}
-
 #my-profile-pic {
-    width: 60%;
-    height: 200px;
-    object-fit: contain;
+    max-width: 30%;
+    height: auto;
+    display: inline-block;
+    /* padding-top: 30px; */
 }
 
 .my-info {
