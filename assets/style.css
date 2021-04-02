@@ -68,7 +68,8 @@ a {
 
 .card-header {
     background-color: var(--cream);
-    font-size: 22px;
+    font-size: 24px;
+    padding: 1rem;
 }
 
 .card-img-top {
@@ -79,6 +80,7 @@ a {
 
 .btn {
     background-color: var(--cream);
+    padding: 1rem;
 }
 
 .btn:hover {

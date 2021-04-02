@@ -20,4 +20,7 @@ This project is licensed under the MIT license.
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-![demo pic](image.jpg)
+## Visuals
+[Click the here to check it out:](url.com)
+
+![demo pic](assets\images\portfolio-pic.jpg)
