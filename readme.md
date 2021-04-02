@@ -23,4 +23,4 @@ This project is licensed under the MIT license.
 ## Visuals
 [Click here to check it out:](https://editapesa.github.io/Updated-Portfolio/)
 
-![demo pic](assets\images\portfolio-pic.jpg)
+![demo pic](assets/images/portfolio-pic.jpg)
