@@ -8,19 +8,12 @@
     --lite-green: #e6ffff;
     --sea-green: #00cccc;
     --cream: #ffe4cf;
-    --border-style: none solid none none;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--lite-green);
     }
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-  }
 
 .custom-jumbotron {
     background-image: url("../assets/images/beach\ pic.jpg");
@@ -52,134 +45,50 @@ a {
     max-width: 30%;
     height: auto;
     display: inline-block;
-    /* padding-top: 30px; */
-}
-
-.my-info {
-    width: 100%;
-    display: inline-block;
-    margin: 0 0 20px 10px;
 }
 
 .about-me {
-    display: flex; 
-    margin: 20px 0 20px 80px;
-}
-
-.about-me h1 {
-    border-style: var(--border-style);
-    padding: 0 20px 20px 10px;
-    font-size: 36px;
+    background-color: var(--lite-green);
 }
 
 .about-me p {
-    margin: 10px 0 10px 20px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
-.work {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0 20px 5px;
-    padding: 50px;
-    height: 300px;
+.card-header {
+    background-color: var(--cream);
+    font-size: 20px;
 }
 
-.work h1 {
-    border-style: var(--border-style);
-    padding: 10px 20px 20px 10px;
-    font-size: 36px;
+.card-img-top {
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
 }
 
-.projects {
-    margin: 10px 10px 10px 30px;
-    padding: 5px;
-    justify-content: center;
+.btn {
+    background-color: var(--cream);
 }
 
-.projects:hover {
+.btn:hover {
     opacity: .5;
 }
 
-#project-one {
-    width: 700px;
-    height: 300px;
-    background-image: url(images/project1-demo-pic.jpg);
-    background-size: cover;    
-}
-
-#project-one ul {
-    font-size: 12px; 
-    background-color: var(--cream);
-    padding: 5px;
-    float: right;
-}
-
-#project-name {
-    font-size: 20px; 
-    background-color: var(--cream);
-    padding: 5px;
-    float: right;
-}
-
-#project-two {
-    height: 150px;
-    width: 300px;
-    background-image: url(images/horiseon-demo-pic.png);
-    background-size: cover;
-}
-
-#project-two ul {
-    font-size: 12px; 
-    background-color: var(--cream);
-    padding: 5px;
-    float: right;
-}
-
-#project-three {
-    height: 150px;
-    width: 300px;
-    background-image: url(images/readme-gen-demo-pic.png);
-    background-size: cover;
-}
-
-#project-three ul {
-    font-size: 12px; 
-    background-color: var(--cream);
-    padding: 5px;
-    float: right;
-}
-
 .contact-me {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
     padding: 20px;
-    margin-top: 500px;
-    height: 150px;
     background-color: var(--sea-green);
-    background-size: cover;
 }
 
 .contact-me h1 {
-    border-style: var(--border-style);
-    margin: 10px 0 0 0;
-    padding: 10px 20px 20px 10px;
-    font-size: 36px;
-    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding-bottom: 1rem;
 }
 
 .contact-me ul li {
-    margin: 10px 0 0 25px;
-    padding: 10px;
+    padding-left: 4rem;
     display: inline-block;
     list-style: none;
-    justify-content: center;
 }
 
  
